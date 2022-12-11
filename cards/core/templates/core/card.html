@@ -1,0 +1,20 @@
+{% extends 'core/basic_in_core.html' %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <p><b>{{find_card.number_cart}}</b>: Номер карты</p>
+            <p><b>{{find_card.date_start}}</b>: Дата активации карты</p>
+            <p><b>{{find_card.date_stop}}</b>: Дата окончания работы карты</p>
+            <p><b>{{find_card.date_use}}</b>: Дата последнего использования</p>
+            <p><b>{{find_card.amount_cash}}</b>: Количество средств на карте</p>
+            <p><b>{{find_card.status}}</b>: Статус карты</p>
+            <h1>Last 5 order</h1>
+            {%for order in orders%}
+                <p>{{order.title}} - Цена {{order.price}}</p>
+            {% endfor %}
+
+            <h1><a href="">Вернуться к поиску</a></h1>
+        </div>
+    </div>
+{% endblock %}
