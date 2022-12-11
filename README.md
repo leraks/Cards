@@ -27,6 +27,14 @@ python manage.py runserver <br>
 ⚠ Then, the development server will be started at http://127.0.0.1:8000/
 
 # Task :
+Web application for managing a database of bonus cards (loyalty cards, credit cards, etc. I have met many variations). List of fields: card series, card number, card issue date, end date of card activity, date of use, amount, card status (not activated/activated/expired).
+
+The functionality of the application is a list of cards with fields: series, number, release date, end date of activity, status search for the same fields viewing the profile of the card with the purchase history of it activating/deactivating the card deleting the card
+
+Implement a card generator, indicating the series and number of generated cards, as well as the "end date of activity" with the values "1 year", "6 months" and "1 month".
+
+# Task Ru
+
 Веб-приложение для управления базой данных бонусных карт (карт лояльности, кредитный карт и т.д. Я встречал много вариаций).
 Список полей: серия карты, номер карты, дата выпуска карты, дата окончания активности карты, дата использования, сумма, статус карты (не активирована/активирована/просрочена).
 
